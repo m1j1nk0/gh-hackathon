@@ -8,7 +8,7 @@
 		  );
 		this.$find('input[name="startTime"]').val('09:00');
 		this.$find('input[name="endTime"]').val(
-		handson.utils.formatTime(new Date()));
+		handson.utils.formatTime(new Date()));	//test
 		},
 		
 		'input, textarea focusout': function(context, $el) {
